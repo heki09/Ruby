@@ -19,3 +19,11 @@ def tax_cal(price)
 end
 
 puts tax_cal(100)
+
+# 04
+def car(type="Normal", speed=100)
+  puts "#{type} MAX_SPEED is #{speed}km/h"
+end
+
+car
+car("Fast",150)
