@@ -56,3 +56,12 @@ while k < 5 do
   puts "k= #{k}"
   k += 1
 end
+
+## test
+amount = 0
+i=1
+while i<=100 do
+ amount +=i
+ i += 1
+end
+puts amount
